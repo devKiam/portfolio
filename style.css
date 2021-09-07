@@ -7,7 +7,7 @@ h1 {
     font-size: 50px;
 }
 
-.header-myname {
+.header-myname, .orange{
     color: orange;
 }
 
@@ -19,9 +19,25 @@ h1 {
 .half-width {
     width:40%;
     margin-left: 5%;
-    padding-left: 2%
+    margin-right: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
+.experience-area {
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px grey;
+}
+
+#full-stack-developer {
+    border-left: 5px solid;
+    border-image: linear-gradient(orange, tomato) 30;
+}
+
+#baby-web-developer {
+    border-left: 5px solid;
+    border-image: linear-gradient(red, cyan) 30;
+}
 .half-width img{
     width: 100%;
 }
@@ -44,4 +60,14 @@ h1 {
     background-image: url("images/dream-bg.png");
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.bottom-section {
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+footer p {
+    text-align: center;
 }
